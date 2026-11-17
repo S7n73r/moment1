@@ -1,0 +1,6 @@
+This is a simple text with several lines.
+This is the second line. More will come...
+This is the third line, followed by a blank line.
+
+This is the fifth line.
+Finally the last line.

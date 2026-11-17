@@ -1,0 +1,5 @@
+﻿  ToDo.cpp
+TestCorrectness.obj : error LNK2019: unresolved external symbol "int __cdecl addNumber(int &,int)" (?addNumber@@YAHAEAHH@Z) referenced in function "bool __cdecl testAddNumber(bool)" (?testAddNumber@@YA_N_N@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl addNumber(int,int)" (?addNumber@@YAHHH@Z)
+C:\Users\anton\Downloads\PraktisktMomentA_575596608_1794509257423\PraktisktMomentA\x64\Debug\PraktisktMomentA.exe : fatal error LNK1120: 1 unresolved externals

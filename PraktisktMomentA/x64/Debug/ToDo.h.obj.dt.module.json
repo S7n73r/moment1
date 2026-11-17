@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "PraktisktMomentA\\x64\\Debug\\ToDo.obj",
+            "outputs": [
+                "PraktisktMomentA\\x64\\Debug\\ToDo.h.obj.dt.module.json",
+                "PraktisktMomentA\\x64\\Debug\\ToDo.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
