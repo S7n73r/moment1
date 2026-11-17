@@ -6,16 +6,22 @@
 */
 
 
-int addNumber(int value, int number = 1) {
-		return(value += number);
+void addNumber(int& value, int number) {
+		value += number;
 }
 
-bool copyFile(string originalFile, string copyfile) {
-		fstream MyFile(originalFile, MyText);
-		fstream MyCopy(copyfile, CopyText)
+bool copyFile(string originalfile, string copyfile) {
+		ifstream MyFile(originalfile);
+		ofstream MyCopy(copyfile);
 
-		while (std::getLine(MyFile, MyText)) {
-				MyCopy(MyText, fstream:app);
+		if (!MyFile.is_open() || !MyCopy.is_open()) {
+				return false;
+		}
+
+		char character;
+
+		while (MyFile.get(character)) {
+				MyCopy.put(character);
 		}
 
 		MyFile.close();

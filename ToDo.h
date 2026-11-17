@@ -16,7 +16,7 @@ using namespace std;
 */
 
 
-int addNumber(int& value, int number = 1);
+void addNumber(int& value, int number = 1);
 
 bool copyFile(string originalfile, string copyfile);
 
