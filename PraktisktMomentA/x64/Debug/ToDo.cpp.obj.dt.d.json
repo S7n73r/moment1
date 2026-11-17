@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\anton\\downloads\\praktisktmomenta_575596608_1794509257423\\praktisktmomenta\\todo.cpp",
+        "Source": "c:\\users\\anton\\source\\repos\\moment1\\todo.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\anton\\downloads\\praktisktmomenta_575596608_1794509257423\\praktisktmomenta\\todo.h",
+            "c:\\users\\anton\\source\\repos\\moment1\\todo.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\string",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\vcruntime.h",

@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled files
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.dll
+
+# Build logs and temporary files
+*.log
+*.tlog/
+*.lastbuildstate

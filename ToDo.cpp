@@ -10,7 +10,15 @@ int addNumber(int value, int number = 1) {
 		return(value += number);
 }
 
-bool copyFile(string originalfile, string copyfile) {
+bool copyFile(string originalFile, string copyfile) {
+		fstream MyFile(originalFile, MyText);
+		fstream MyCopy(copyfile, CopyText)
+
+		while (std::getLine(MyFile, MyText)) {
+				MyCopy(MyText, fstream:app);
+		}
+
+		MyFile.close();
 		return true;
 }
 
